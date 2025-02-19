@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  border-radius: 10px;
+  margin: 3px 0;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+.sidebar {
+  display: flex;
+  gap: 10px;
+  min-height: 500px;
+}
+.hea {
+  background-color: red;
+  color: white;
+}
+.sid {
+  background-color: green;
+  color: white;
+  width: 30%;
+}
+.side {
+  background-color: pink;
+  color: white;
+  width: 30%;
+}
+.foot {
+  background-color: blue;
+  color: white;
+}
+p {
+  background-color: yellow;
+}
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sid,
+  .side,
+  .p {
+    width: 100%;
+  }
+  .foot {
+    width: 100%;
+  }
+}
